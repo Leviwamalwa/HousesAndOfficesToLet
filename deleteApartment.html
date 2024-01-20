@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="iso-8859-1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Delete Apartments</title>
+    <meta name="description" content="text/html"/>
+    <meta name="viewport" content="width=device-width"/>
+    <base href="/"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Custom.css"/>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:700" type="text/css"/>
+    <link rel="stylesheet" href="src/main/resources/static/Custom.css"/>
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+	<h1>Delete Apartments</h1>
+	     <form action="/deleteApartment/{apartmentname}">
+			<input type="text" required   name="apartmentname" placeholder="Enter name of the apartment to delete"/>
+			<input type="submit" class="btn-success" value="submit" /> 
+		 </form>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html> 
